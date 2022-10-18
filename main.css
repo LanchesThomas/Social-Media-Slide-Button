@@ -1,0 +1,117 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(65, 110, 235, 0.548);
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.text {
+    text-transform: lowercase;
+}
+
+.text p{
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+}
+
+.icon-container {
+    width: 200px;
+    height: 50%;
+    position: absolute;
+    top: 25vh;
+    right: 0%;
+    background-color: transparent;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end
+
+}
+
+.cards {
+    width: 50%;
+    height: 20%;
+    transition: 200ms;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    overflow: hidden;
+    
+    
+}
+
+.cards:hover {
+    width: 150%;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+
+.cards:hover .cards-link  {
+    margin-right: 0px;
+}
+
+.cards-icon {
+    width:100%;
+    height:100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cards-icon i{
+    font-size: 25px;
+    color: white;
+}
+
+.cards-link {
+    transition: 300ms;
+}
+
+.cards-link  {
+    margin-right: -150px;
+    padding: 10px;
+    padding-right: 50px;
+}
+
+.cards-link a {
+    color: white;
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 800
+}
+
+
+.blog {
+    border-top-left-radius: 15px;
+    background-color: #E17B77;
+}
+
+.twitter {
+    background-color: #00ACED;
+}
+
+.linkedin {
+    background-color: #007BB6;
+}
+
+.facebook {
+    background-color: #3B5998;
+}
+
+.github {
+    border-bottom-left-radius: 15px;
+    background-color: #333333;
+}
+
